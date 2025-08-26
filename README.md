@@ -8,7 +8,7 @@ Creates and configures an ArgumentParser instance in a single call.
 
 This function is a wrapper for argparse that simplifies the creation
 of complex parsers.
-
+```
 Args:
     *args: A sequence of dictionaries.
         - The first dictionary (required) contains the keyword arguments
@@ -26,7 +26,9 @@ Returns:
 Raises:
     ValueError: If at least one configuration dictionary is not provided,
                 or if an argument dictionary is missing the 'name' key.
+```
 
+## Usage
 
 ```python
 # example.py
